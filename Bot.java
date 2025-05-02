@@ -17,9 +17,8 @@ public class Bot {
         System.out.println("He escuchado que " + location + " es un encanto. Yo nací en Oracle city.");
 
         System.out.println("\n¿Cuántos años tienes?");
-        int edad = scanner.nextInt();
-        scanner.nextLine(); // nextLine trap después de nextInt
-
+        byte edad = scanner.nextByte();
+        scanner.nextLine();
         System.out.println("Entonces me dices que tienes " + edad + " años. Yo tengo 400 años.");
         double ratio = 400.0 / edad;
         System.out.println("Eso quiere decir que soy " + ratio + " veces más vieja que tú.");
