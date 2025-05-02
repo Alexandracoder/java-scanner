@@ -24,6 +24,6 @@ public class SignUp {
         //Hola + nombre + <apellido>, tu nombre de usuario es <usuario> y tu contraseña es <contraseña>, gracias por registrarte.
         //Añade una nueva línea antes de mostrar la respuesta
         System.out.println("\nHola " + name + " " + surname + ", tu nombre de usuario es " + user +  " y tu contraseña es " + password + ", gracias por registrarte.");
-
+        scanner.close();
         }
     }
